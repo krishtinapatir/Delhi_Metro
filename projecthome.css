@@ -1,0 +1,77 @@
+*{
+    margin: 3px;
+    padding: 6px 6px;
+}
+.background{
+    background-image: url("IMG/Delhi_Metro_logo.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:cornsilk;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px black, 2px 2px 1px black;
+}
+nav a:hover{
+    color:rgb(42, 165, 79);
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+}
+h2{
+    background-color: rgb(32, 57, 199);
+    padding: 10px;
+    text-align: center;
+}
+body{
+    font: 14px;
+    background:local;
+    padding: 4px;
+    font-size: 20px;
+}
+p{
+    border-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+h3{
+    background-size: contain;
+    background-color: aqua;
+}
+input[type=submit]{
+    color: white;
+    background-color: rgb(233, 206, 72);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+   background-color:rgb(40, 160, 212);
+}
+input[type=send]{
+    color: white;
+    background-color: rgb(233, 206, 72);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; 
+    
+}
+
+
+input[type=send]:hover{
+    background-color:rgb(40, 160, 212);
+    
+ }
+.footer{
+    background-color: black;
+}
+footer a{
+    color: white;
+    padding: 60px;
+}

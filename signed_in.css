@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-style: italic;
+    font-size: large;
+    margin: 15px 30px;
+    padding: 15px;
+}
+#background{
+    background-color: #f2f2f2;
+    border: 2px solid rgb(24, 158, 78);
+    border-radius: 6px;
+    padding: 15px 15px 30px;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+select[name="card"],
+input[type=date],
+input[type=password]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    margin: 10px;
+}
+.heading{
+    background-color: rgb(24, 158, 78);
+    border: 2px solid  rgb(24, 158, 78);
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+}
+input[type="go"]{
+   color: white;
+   background-color: rgb(24, 158, 78);
+   border: 1px solid rgb(24, 158, 78);
+   border-radius: 5px;
+   cursor: pointer;
+   padding: 8px;
+}
+input[type="go"]:hover{
+    background-color: aqua;
+}
+input[type="go"]{
+    color: white;
+    background-color: rgb(24, 158, 78);
+    border: 1px solid rgb(24, 158, 78);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+ }
+ input[type="go"]:hover{
+     background-color: aqua;
+ }

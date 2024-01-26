@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <link rel="stylesheet" href="signed_in.css">
+</head>
+<body>
+    <div id="background">
+        <form action="">
+            <h1 class="heading">PROFILE</h1>
+            <p>Please fill all the details to create account </p>
+            <p>Name*: <input type="text" name="name" placeholder="########"></p>
+            <p>Email*: <input type="email" name="email" id="email" placeholder="######@gmail.com" required></p>
+            <p>Phone no.*: <input type="number" name="phone number" id="phone number" placeholder="93567#####" required></p>
+            <p>Address*: <textarea name="address" id="address" cols="100" rows="8" placeholder="James Church, New Church Rd, Opp. St #########"></textarea></p>
+            <p>Pincode*: <input type="number" id="number" placeholder="110###" required></p>
+            <p>Metro Card No.*: <input type="number" id="number" placeholder="21345########" required></p>
+            <a href="change_password.html" target="_blank" rel="noopener noreferrer">
+                <input disabled type="go" value="Change Password">
+            </a>
+            <h3>Payment Information:</h3>
+            <p>Card Type:
+                <select name="card" id="card" required>
+                    <option value="">--select a card type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+            </p>
+            <p>Card Number*: <input type="number" name="number" id="number"  required></p>
+            <p>Expiration Date*: <input type="date" name="date" id="date" required></p>
+            <p>CVV*: <input type="password" name="cvv" id="cvv" required></p>
+            <a href="metro_payment.html" target="_blank" rel="noopener noreferrer">
+                <input disabled type="go" value="Pay Now">
+            </a>
+        </form>
+    </div>
+</body>
+</html>
